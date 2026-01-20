@@ -1,0 +1,4 @@
+sudo apt update
+sudo apt install nginx -y
+sudo nano /var/www/html/index.html
+sudo systemctl restart nginx
